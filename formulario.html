@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Feedback</title>
+</head>
+<body>
+    <form method="post" action="./enviarform.php">
+     <h1>Formulário de Feedback</h1>
+
+     <label for="txtNome">Nome Completo </label>
+     <textarea type="text" id="txtNome" name="txtNome" placeholder="Digite aqui seu nome completo"></textarea>
+     <br />
+
+     <label for="txtIdade">Idade </label>
+     <textarea type="text" id="txtIdade" name="txtIdade" placeholder="Digite aqui sua idade"></textarea>
+     <br />
+
+     <label for="txtTel">Telefone </label>
+     <input type="text" id="txtTel" name="txtTel" placeholder="Digite aqui seu número de telefone"/>
+     <br />
+
+     <label for="txtCep">CEP </label>
+     <input type="number" id="txtCep" name="txtCep" placeholder="Digite aqui seu CEP"/>/>
+     <br />
+
+     <label for="txtEmail">Email </label>
+     <input type="text" id="txtEmail" name="txtEmail" placeholder="Digite aqui seu email"/>
+     <br />
+
+     <label for="txtDep">Depoimento</label>
+     <input type="text" id="txtDep" name="txtDep"  placeholder="Digite aqui seu depoimento"/>
+     <br />
+
+     <label for="rdgEstrelas">Estrelas de Feedback</label>
+     <input type="radio" id="1_estrelas" name="rdgEstrelas" value="1" placeholder="Por gentileza, avalie sua experiência com o restaurante" />
+     <br />
+
+     <label for="txtMelhorias">Digite suas sugestões de melhorias: </label>
+     <input type="text" id="txtMelhorias" name="txtMelhorias"  placeholder="Melhorias"/>
+     <br />
+
+     <label for="txtIndc">Teve alguma indicação?</label>
+     <input type="number" id="txtSenha" name="txtSenha"/>
+     <br />
+
+     <label for="txtIdade">Deseja enviar o formulário anônimamente?</label>
+     <input type="text" id="txtSenha" name="txtSenha"/>
+     <br />
+
+     
+        
+     <label for="txtIdade">Gênero</label>
+     <input type="text" id="txtSenha" name="txtSenha"/>
+     <br />
+
+     <label for="txtIdade">Formação</label>
+     <input type="text" id="txtSenha" name="txtSenha"/>
+     <br />
+
+     <label for="txtIdade">Profissão</label>
+     <input type="text" id="txtSenha" name="txtSenha"/>
+     <br />
+
+     <label for="txtIdade">Alergias</label>
+     <input type="text" id="txtSenha" name="txtSenha"/>
+     <br />
+
+     <label for="txtIdade">Horário de Visita</label>
+     <input type="text" id="txtSenha" name="txtSenha"/>
+     <br />
+     <button onclick="validar()"> Validar Feedback</button>
+    </form>
+<script src="./ifelse.js"></script>
+</body>
+</html>
